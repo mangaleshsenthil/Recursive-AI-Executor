@@ -1,0 +1,13 @@
+/* frontend/src/index.css */
+
+/* --- TAILWIND DIRECTIVES (MUST BE AT THE VERY TOP) --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- MINIMAL BODY RESET --- */
+/* Ensures full screen height and removes conflicting styles */
+body {
+  margin: 0;
+  min-height: 100vh;
+}
